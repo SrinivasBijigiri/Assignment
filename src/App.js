@@ -16,28 +16,42 @@ function App() {
   const handleCloseModal = () => setShowModal(false);
 
   return (
+    <Container fluid>
+  <Header />
+  <section id="become-acca" className="my-4">
     <Container>
-      <Header />
-      <section id="become-acca">
-        <BecomeACCA />
-      </section>
-      <section id="program-details">
-        <ProgramDetails />
-      </section>
-      <section id="why-choose-us">
-        <WhyChooseUs />
-      </section>
-      <section id="acca-eligibility">
-        <ACCAEligibility />
-      </section>
-      <section id="what-will-you-learn">
-        <WhatWillYouLearn />
-      </section>
-      <section id="placement-assistance">
-        <PlacementAssistance />
-      </section>
-      <RequestCallBackModal show={showModal} handleClose={handleCloseModal} />
+      <BecomeACCA />
     </Container>
+  </section>
+  <section id="program-details" className="my-4">
+    <Container>
+      <ProgramDetails />
+    </Container>
+  </section>
+  <section id="why-choose-us" className="my-4">
+    <Container>
+      <WhyChooseUs />
+    </Container>
+  </section>
+  <section id="acca-eligibility" className="my-4">
+    <Container>
+      <ACCAEligibility />
+    </Container>
+  </section>
+  <section id="what-will-you-learn" className="my-4">
+    <Container>
+      <WhatWillYouLearn />
+    </Container>
+  </section>
+  <section id="placement-assistance" className="my-4">
+    <Container>
+      <PlacementAssistance />
+    </Container>
+  </section>
+  <RequestCallBackModal show={showModal} handleClose={handleCloseModal} />
+</Container>
+
+    
   );
 }
 
