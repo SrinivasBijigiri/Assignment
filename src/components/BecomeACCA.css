@@ -1,0 +1,96 @@
+.become-acca-section {
+  background-color: #26026e;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.left-section h4,
+.left-section p {
+  color: white;
+}
+
+.right-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.stats-section .stats-card {
+  height: 120px; 
+  width: 100%; 
+  padding: 10px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.stats-logo {
+  width: 40px; 
+  height: 40px;
+  margin-bottom: 10px; 
+}
+
+.form-card {
+  background-color: white;
+  color: black;
+  border: 2px solid #26026e;
+  width: 100%;
+}
+
+.form-card h4 {
+  color: #26026e;
+}
+
+.submit-button {
+  background-color: #26026e;
+  border: none;
+  width: 100%;
+}
+.heading{
+  color: aliceblue;
+}
+.paragraph{
+
+  color: aliceblue;
+
+}
+.card-text-color{
+  color: #26026e;
+}
+
+@media (max-width: 767px) {
+  .become-acca-section {
+    background-color: rgba(38, 2, 110, 0.5);
+  }
+
+  .left-section,
+  .right-section {
+    text-align: center;
+  }
+
+  .right-section {
+    margin: 0 auto;
+  }
+
+  .form-card {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .submit-button {
+    width: auto;
+  }
+
+  .stats-card {
+    height: 75px;
+    padding: 20px;
+
+  }
+}

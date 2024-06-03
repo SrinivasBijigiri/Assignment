@@ -1,0 +1,32 @@
+.placement-assistance-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .sub-description {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center; 
+  }
+  
+  .sub-description p {
+    margin: 0;
+    padding-left: 10px; 
+    font-size: 16px; 
+    color: #26026e;
+  }
+  
+  
+  .sub-description p {
+    margin: 0;
+    font-size: 16px; 
+    color: #26026e;
+  }
+  
+  .sub-description strong {
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,52 @@
+.what-will-you-learn-section {
+  background: #26026e;
+  background: linear-gradient(to right, #26026e, #b14ae0);
+  padding: 50px 0;
+  margin-top: -20px;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.sub-card {
+  margin-bottom: 30px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #26026e;
+  color: white;
+  padding: 10px 0;
+  border-radius: 0 0 10px 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #26026e; /* Updated list text color */
+}
+
+.card-text strong {
+  margin-bottom: 10px;
+  display: block;
+  color: #26026e; /* Updated list heading color */
+}
+
+@media (max-width: 767px) {
+  .sub-card {
+    height: auto;
+  }
+}

@@ -1,0 +1,23 @@
+.form-with-border {
+    border: 2px solid #26026e;
+    background: linear-gradient(to right, #26026e, #b14ae0);
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  .form-with-border .form-group label {
+    color: white;
+  }
+  
+  .form-with-border .form-group input, .form-with-border .form-group select {
+    background-color: #ffffff;
+    
+  }
+  .request-call-button {
+    background: linear-gradient(to right, #26026e, #b14ae0);
+    color: white;
+  }
+  .form-group-spacing {
+    margin-bottom: 10px;
+  }
+  
